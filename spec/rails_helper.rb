@@ -44,6 +44,8 @@ Shoulda::Matchers.configure do |config|
 end
 
 RSpec.configure do |config|
+  config.render_views = true
+
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
@@ -75,6 +77,9 @@ RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
 
   config.include RequestSpecHelper, type: :request
+
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
 
   config.before(:suite) do
     DatabaseCleaner.clean_with(:truncation)
