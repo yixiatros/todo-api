@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actiontext (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_model_serializers (v0.10.14, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v7.1.2, asdf: 3.2.2) [gem]" level="application" />
@@ -46,6 +47,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.17.0, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.4.10, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="case_transform (v0.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.2.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.4.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, asdf: 3.2.2) [gem]" level="application" />
@@ -65,6 +67,7 @@
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.7.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.11.0, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.7.1, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jsonapi-renderer (v0.2.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jwt (v2.7.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.3, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.22.0, asdf: 3.2.2) [gem]" level="application" />
@@ -117,6 +120,7 @@
     <orderEntry type="library" scope="PROVIDED" name="webrick (v1.8.1, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.6, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.1.8, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.6.12, asdf: 3.2.2) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
@@ -160,6 +164,7 @@
         <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="serializer" />
         <option value="system_test" />
         <option value="task" />
         <option value="test_unit:channel" />
@@ -213,6 +218,7 @@
         <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="serializer" />
         <option value="system_test" />
         <option value="task" />
         <option value="test_unit:channel" />

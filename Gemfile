@@ -58,3 +58,11 @@ group :test do
   gem 'faker'
   gem 'shoulda-matchers', '~> 3.1'
 end
+
+# [...]
+gem 'active_model_serializers', '~> 0.10.0'
+# [...]
+
+# [...]
+gem 'will_paginate', '~> 3.1.0'
+# [...]

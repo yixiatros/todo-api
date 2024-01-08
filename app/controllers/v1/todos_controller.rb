@@ -44,3 +44,16 @@ class TodosController < ApplicationController
   end
 
 end
+
+module V1
+  class TodosController < ApplicationController
+    # [...]
+    # GET /todos
+    def index
+      # get paginated current user todos
+      @todos = current_user.todos.paginate(page: params[:page], per_page: 20)
+      json_response(@todos)
+    end
+    # [...]
+  end
+end

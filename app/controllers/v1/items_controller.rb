@@ -44,3 +44,9 @@ class ItemsController < ApplicationController
     @item = @todo.items.find_by!(id: params[:id]) if @todo
   end
 end
+
+module V1
+  class ItemsController < ApplicationController
+    # [...]
+  end
+end
